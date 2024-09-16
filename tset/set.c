@@ -236,7 +236,6 @@ set_init(void)
 	if (settle) {
 		(void)putc('\r', stderr);
 		(void)fflush(stderr);
-		(void)sleep(1);			/* Settle the terminal. */
 	}
 }
 
